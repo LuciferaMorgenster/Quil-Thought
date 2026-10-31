@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-parchment: #FAF8F5;
+    --paper-parchment: #FFFFFF;
+    --text-parchment: #22201D;
+    --border-parchment: #E8E4DD;
+    --accent-parchment: #A36B31;
+    --accent-light: #FBF4EB;
+  }
+
+  body {
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.font-editorial {
+  font-family: 'Crimson Pro', Georgia, serif;
+}
+
+.font-display-serif {
+  font-family: 'Instrument Serif', Georgia, serif;
+}
+
+.font-clean {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+.font-code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(140, 130, 115, 0.25);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(140, 130, 115, 0.45);
+}
+
+/* Animations */
+@keyframes subtle-pulse {
+  0%, 100% { opacity: 0.9; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.05); }
+}
+
+.animate-subtle-pulse {
+  animation: subtle-pulse 2.4s ease-in-out infinite;
+}
+
+@keyframes highlight-glow {
+  0% { background-color: rgba(245, 158, 11, 0.25); }
+  100% { background-color: transparent; }
+}
+
+.highlight-updated {
+  animation: highlight-glow 2.5s ease-out forwards;
+}
