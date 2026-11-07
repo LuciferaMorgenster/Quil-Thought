@@ -4,6 +4,24 @@
 
 ---
 
+## 💖 Sponsor Quill & Thought – Intelligent Writing Studio
+
+Quill & Thought – Intelligent Writing Studio is an open-source project built with passion and dedication. Want to support the continued development of this project? You can!
+
+**Sponsor this project by making a donation via PayPal:**
+
+<div align="center">
+
+### ☕ [Donate via PayPal](https://paypal.me/luciferamorgenster)
+
+📧 **PayPal:** `luciferamorgenster@gmail.com`
+
+</div>
+
+Every donation, big or small, helps keep Ivory Tower BBS alive, fund new features, and support ongoing development. Thank you for your generosity! 🙏
+
+---
+
 ## 🌟 Overview
 
 **Quill & Thought** is designed for writers, thinkers, and professionals who want to harness the power of AI without breaking their creative flow. Instead of constantly toggling between external AI tools and text editors, Quill & Thought brings contextual AI intelligence directly onto your page.
